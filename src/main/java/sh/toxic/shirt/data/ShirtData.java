@@ -16,6 +16,4 @@ public class ShirtData {
     private int length = 142; // DEF=142
     private int hip = 138; // DEF=132
 
-
-
 }
