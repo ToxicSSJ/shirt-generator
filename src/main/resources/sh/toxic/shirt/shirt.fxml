@@ -8,6 +8,7 @@
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
@@ -26,22 +27,22 @@
                     <AnchorPane fx:id="variablesPane" minHeight="0.0" minWidth="0.0" prefHeight="563.0" prefWidth="391.0">
                            <children>
                               <Separator layoutX="-26.0" layoutY="170.0" prefHeight="0.0" prefWidth="417.0" style="-fx-background-color: #202060;" />
-                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="22.0" prefHeight="17.0" prefWidth="104.0" text="Hip Value" textAlignment="CENTER" textFill="WHITE">
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="29.0" layoutY="22.0" prefHeight="17.0" prefWidth="104.0" text="Hip Value" textAlignment="CENTER" textFill="WHITE">
                                  <font>
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
                               </Label>
-                              <Label alignment="CENTER" layoutX="14.0" layoutY="56.0" prefHeight="17.0" prefWidth="104.0" text="Length Value" textFill="WHITE">
+                              <Label alignment="CENTER" layoutX="29.0" layoutY="56.0" prefHeight="17.0" prefWidth="104.0" text="Length Value" textFill="WHITE">
                                  <font>
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
                               </Label>
-                              <Label alignment="CENTER" layoutX="14.0" layoutY="94.0" prefHeight="17.0" prefWidth="104.0" text="Back Value" textFill="WHITE">
+                              <Label alignment="CENTER" layoutX="29.0" layoutY="94.0" prefHeight="17.0" prefWidth="104.0" text="Back Value" textFill="WHITE">
                                  <font>
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
                               </Label>
-                              <Label alignment="CENTER" layoutX="14.0" layoutY="130.0" prefHeight="17.0" prefWidth="104.0" text="Long Value" textFill="WHITE">
+                              <Label alignment="CENTER" layoutX="29.0" layoutY="129.0" prefHeight="17.0" prefWidth="104.0" text="Long Value" textFill="WHITE">
                                  <font>
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
@@ -62,62 +63,62 @@
                               <TextField fx:id="lengthValue" layoutX="144.0" layoutY="52.0" prefHeight="25.0" prefWidth="78.0" />
                               <TextField fx:id="backValue" layoutX="144.0" layoutY="90.0" prefHeight="25.0" prefWidth="79.0" />
                               <TextField fx:id="longValue" layoutX="144.0" layoutY="126.0" prefHeight="25.0" prefWidth="80.0" />
-                              <Button layoutX="320.0" layoutY="18.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="+">
+                              <Button fx:id="addHip" layoutX="320.0" layoutY="18.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="+">
                                  <font>
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="276.0" layoutY="18.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="-">
+                              <Button fx:id="subHip" layoutX="276.0" layoutY="18.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="-">
                                  <font>
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="320.0" layoutY="52.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="+">
+                              <Button fx:id="addLength" layoutX="320.0" layoutY="52.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="+">
                                  <font>
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="276.0" layoutY="52.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="-">
+                              <Button fx:id="subLength" layoutX="276.0" layoutY="52.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="-">
                                  <font>
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="320.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="+">
+                              <Button fx:id="addBack" layoutX="320.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="+">
                                  <font>
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="276.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="-">
+                              <Button fx:id="subBack" layoutX="276.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="-">
                                  <font>
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="320.0" layoutY="125.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="+">
+                              <Button fx:id="addLong" layoutX="320.0" layoutY="125.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="+">
                                  <font>
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="276.0" layoutY="125.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="-">
+                              <Button fx:id="subLong" layoutX="276.0" layoutY="125.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="-">
                                  <font>
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="230.0" layoutY="126.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="S">
+                              <Button fx:id="saveLong" layoutX="230.0" layoutY="126.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="S">
                                  <font>
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="230.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="S">
+                              <Button fx:id="saveBack" layoutX="230.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="S">
                                  <font>
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="230.0" layoutY="52.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="S">
+                              <Button fx:id="saveLength" layoutX="230.0" layoutY="52.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="S">
                                  <font>
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
                               </Button>
-                              <Button layoutX="230.0" layoutY="18.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="S">
+                              <Button fx:id="saveHip" layoutX="230.0" layoutY="18.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="S">
                                  <font>
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
@@ -128,17 +129,17 @@
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
                               </Label>
-                              <Button fx:id="cwRotate" layoutX="144.0" layoutY="191.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="101.0" text="CW">
+                              <Button fx:id="cwRotate" layoutX="144.0" layoutY="191.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="101.0" text="CCW">
                                  <font>
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="ccwRotate" layoutX="252.0" layoutY="191.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="107.0" text="CCW">
+                              <Button fx:id="ccwRotate" layoutX="252.0" layoutY="191.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="107.0" text="CW">
                                  <font>
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
                               </Button>
-                              <Button fx:id="translate" layoutX="144.0" layoutY="238.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="216.0" text="Translate">
+                              <Button fx:id="translate" layoutX="332.0" layoutY="238.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="28.0" text="S">
                                  <font>
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
@@ -158,7 +159,38 @@
                                     <Font name="Century Gothic Bold" size="13.0" />
                                  </font>
                               </Button>
-                              <TextField fx:id="scale" layoutX="143.0" layoutY="286.0" prefHeight="25.0" prefWidth="95.0" />
+                              <TextField fx:id="scaleValue" layoutX="143.0" layoutY="286.0" prefHeight="25.0" prefWidth="95.0" />
+                              <ToggleButton fx:id="reference" layoutX="146.0" layoutY="328.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="216.0" text="Reference Lines">
+                                 <font>
+                                    <Font name="Century Gothic Bold" size="13.0" />
+                                 </font>
+                              </ToggleButton>
+                              <Label alignment="CENTER" layoutX="14.0" layoutY="332.0" prefHeight="17.0" prefWidth="104.0" text="Extra" textFill="WHITE">
+                                 <font>
+                                    <Font name="Century Gothic Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                              <AnchorPane layoutX="14.0" layoutY="25.0" prefHeight="11.0" prefWidth="11.0" style="-fx-background-color: yellow;" />
+                              <AnchorPane layoutX="14.0" layoutY="61.0" prefHeight="11.0" prefWidth="11.0" style="-fx-background-color: limegreen;" />
+                              <AnchorPane layoutX="14.0" layoutY="99.0" prefHeight="11.0" prefWidth="11.0" style="-fx-background-color: blue;" />
+                              <AnchorPane layoutX="14.0" layoutY="135.0" prefHeight="11.0" prefWidth="11.0" style="-fx-background-color: red;" />
+                              <TextField fx:id="translateX" layoutX="167.0" layoutY="238.0" prefHeight="25.0" prefWidth="65.0" />
+                              <TextField fx:id="translateY" layoutX="263.0" layoutY="238.0" prefHeight="25.0" prefWidth="65.0" />
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="138.0" layoutY="242.0" prefHeight="17.0" prefWidth="30.0" text="X:" textAlignment="CENTER" textFill="WHITE">
+                                 <font>
+                                    <Font name="Century Gothic Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="242.0" prefHeight="17.0" prefWidth="28.0" text="Y:" textAlignment="CENTER" textFill="WHITE">
+                                 <font>
+                                    <Font name="Century Gothic Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="reset" layoutX="270.0" layoutY="511.0" mnemonicParsing="false" text="Reset" textFill="WHITE">
+                                 <font>
+                                    <Font name="Century Gothic Bold" size="12.0" />
+                                 </font>
+                              </Button>
                            </children>
                         </AnchorPane>
                   </content>

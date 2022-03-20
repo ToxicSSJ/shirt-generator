@@ -1,0 +1,43 @@
+Process
+=======
+compile
+
+Command Line
+============
+C:\Program Files\GraalVM\graalvm-ce-java17-22.0.0.2\bin\native-image.cmd "-Djdk.internal.lambda.eagerlyInitialize=false" --no-server -H:+ExitAfterRelocatableImageWrite -H:+SharedLibrary -H:+AddAllCharsets -H:+ReportExceptionStackTraces -H:-DeadlockWatchdogExitOnTimeout "-H:DeadlockWatchdogInterval=0" -H:+RemoveSaturatedTypeFlows "--features=org.graalvm.home.HomeFinderFeature" "-H:TempDirectory=C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\tmp" "-H:EnableURLProtocols=http,https" "-H:ReflectionConfigurationFiles=C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\reflectionconfig-x86_64-windows.json" "-H:JNIConfigurationFiles=C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\jniconfig-x86_64-windows.json" "-H:ResourceConfigurationFiles=C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\resourceconfig-x86_64-windows.json" "-H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com/sun/glass/ui/win/themes,com.sun.media.jfxmedia.MediaErrors,com.sun.webkit.graphics.Images,com.sun.webkit.LocalizedStrings,javafx.scene.web.HTMLEditorSkin,com.sun.org.apache.xerces.internal.impl.msg.XMLMessages" "-Dsvm.platform=org.graalvm.nativeimage.Platform$WINDOWS_AMD64" -cp "C:\Users\abrah\.m2\repository\com\gluonhq\substrate\0.0.52\substrate-0.0.52.jar;C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\tmp\classpathJar.jar" sh.toxic.shirt.HelloApplication
+
+Output
+======
+Warning: Ignoring server-mode native-image argument --no-server.
+========================================================================================================================
+GraalVM Native Image: Generating 'sh.toxic.shirt.helloapplication'...
+========================================================================================================================
+[1/7] Initializing...                                                                                    (5,0s @ 0,18GB)
+ Version info: 'GraalVM 22.0.0.2 Java 17 CE'
+[2/7] Performing analysis...  [************]                                                            (40,4s @ 2,10GB)
+  11.438 (88,89%) of 12.867 classes reachable
+  20.709 (73,43%) of 28.201 fields reachable
+  56.098 (61,37%) of 91.414 methods reachable
+     659 classes,   180 fields, and 1.394 methods registered for reflection
+     134 classes,   150 fields, and   206 methods registered for JNI access
+[3/7] Building universe...                                                                               (7,2s @ 2,88GB)
+[4/7] Parsing methods...      [*]                                                                        (1,4s @ 4,04GB)
+[5/7] Inlining methods...     [*****]                                                                   (13,6s @ 1,63GB)
+[6/7] Compiling methods...    [****]                                                                    (14,3s @ 2,65GB)
+[7/7] Creating image...
+------------------------------------------------------------------------------------------------------------------------
+                       14,0s (15,6% of total time) in 37 GCs | Peak RSS: 5,25GB | CPU load: 8,84
+------------------------------------------------------------------------------------------------------------------------
+Produced artifacts:
+ C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\shirt\sh.toxic.shirt.helloapplication.h (header)
+ C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\shirt\graal_isolate.h (header)
+ C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\shirt\sh.toxic.shirt.helloapplication_dynamic.h (header)
+ C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\shirt\graal_isolate_dynamic.h (header)
+ C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\shirt\sh.toxic.shirt.helloapplication.build_artifacts.txt
+========================================================================================================================
+Finished generating 'sh.toxic.shirt.helloapplication' in 1m 28s.
+
+
+Result
+======
+result: 0

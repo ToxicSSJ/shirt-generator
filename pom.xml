@@ -136,6 +136,14 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>com.gluonhq</groupId>
+                <artifactId>gluonfx-maven-plugin</artifactId>
+                <version>1.0.12</version>
+                <configuration>
+                    <mainClass>sh.toxic.shirt.HelloApplication</mainClass>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>

@@ -2,6 +2,7 @@ module sh.toxic.shirt {
 
     requires static lombok;
 
+    // requires javafx.scene.control;
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;

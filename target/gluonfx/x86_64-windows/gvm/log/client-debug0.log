@@ -1,0 +1,300 @@
+[dom mar 20 16:51:55 COT 2022][INFO] ==================== RUN TASK ====================
+[dom mar 20 16:54:04 COT 2022][INFO] ==================== PACKAGE TASK ====================
+[dom mar 20 16:54:04 COT 2022][SEVERE] CANDLE not found.
+Check the log files under C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\log
+And please check https://docs.gluonhq.com/ for more information.
+[dom mar 20 16:54:04 COT 2022][SEVERE] Please make sure to install Wix Toolset (https://wixtoolset.org/) before proceeding.
+Check the log files under C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\log
+And please check https://docs.gluonhq.com/ for more information.
+[dom mar 20 16:54:04 COT 2022][SEVERE] Packaging failed.
+Check the log files under C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\log
+And please check https://docs.gluonhq.com/ for more information.
+[dom mar 20 16:58:11 COT 2022][INFO] ==================== COMPILE TASK ====================
+[dom mar 20 16:58:12 COT 2022][INFO] We will now compile your code for x86_64-microsoft-windows. This may take some time.
+[dom mar 20 16:58:12 COT 2022][FINE] Processing JavaStatic dependencies at C:\Users\abrah\.gluon\substrate\javaStaticSdk\18-ea+prep18-8\windows-x86_64\staticjdk\lib\static
+[dom mar 20 16:58:12 COT 2022][FINE] Processing JavaFXStatic dependencies at C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib
+[dom mar 20 16:58:12 COT 2022][INFO] Downloading JavaFX static libs...
+[dom mar 20 16:58:12 COT 2022][FINE] Processing zip file: url = https://download2.gluonhq.com/substrate/javafxstaticsdk/openjfx-18-ea+10-windows-x86_64-static.zip, zip = C:\Users\abrah\.gluon\substrate\openjfx-18-ea+10-windows-x86_64-static.zip, subDir = javafxStaticSdk, levels = [18-ea+10, windows-x86_64], md5 = javafxStaticSdk-windows-x86_64.md5
+[dom mar 20 16:58:15 COT 2022][INFO] JavaFX static libs downloaded successfully
+[dom mar 20 16:58:15 COT 2022][FINE] Setup dependencies done
+[dom mar 20 16:58:15 COT 2022][FINE] Extracting native libs to: C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\lib
+[dom mar 20 16:58:15 COT 2022][FINE] Looking for resource: /native/windows/launcher.c
+[dom mar 20 16:58:15 COT 2022][FINE] PB Command for compile-additional-sources: cl -c -DSUBSTRATE /MD /D_UNICODE /DUNICODE /DWIN32 /D_WINDOWS -IC:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\shirt launcher.c
+[dom mar 20 16:58:15 COT 2022][FINE] Start process compile-additional-sources...
+[dom mar 20 17:01:36 COT 2022][INFO] ==================== PACKAGE TASK ====================
+[dom mar 20 17:01:36 COT 2022][SEVERE] CANDLE not found.
+Check the log files under C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\log
+And please check https://docs.gluonhq.com/ for more information.
+[dom mar 20 17:01:36 COT 2022][SEVERE] Please make sure to install Wix Toolset (https://wixtoolset.org/) before proceeding.
+Check the log files under C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\log
+And please check https://docs.gluonhq.com/ for more information.
+[dom mar 20 17:01:36 COT 2022][SEVERE] Packaging failed.
+Check the log files under C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\log
+And please check https://docs.gluonhq.com/ for more information.
+[dom mar 20 17:05:44 COT 2022][INFO] ==================== PACKAGE TASK ====================
+[dom mar 20 17:05:44 COT 2022][SEVERE] CANDLE not found.
+Check the log files under C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\log
+And please check https://docs.gluonhq.com/ for more information.
+[dom mar 20 17:05:44 COT 2022][SEVERE] Please make sure to install Wix Toolset (https://wixtoolset.org/) before proceeding.
+Check the log files under C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\log
+And please check https://docs.gluonhq.com/ for more information.
+[dom mar 20 17:05:44 COT 2022][SEVERE] Packaging failed.
+Check the log files under C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\log
+And please check https://docs.gluonhq.com/ for more information.
+[dom mar 20 17:09:34 COT 2022][INFO] ==================== COMPILE TASK ====================
+[dom mar 20 17:09:35 COT 2022][INFO] We will now compile your code for x86_64-microsoft-windows. This may take some time.
+[dom mar 20 17:09:35 COT 2022][FINE] Extracting native libs to: C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\lib
+[dom mar 20 17:09:35 COT 2022][FINE] Looking for resource: /native/windows/launcher.c
+[dom mar 20 17:09:35 COT 2022][FINE] PB Command for compile-additional-sources: cl -c -DSUBSTRATE /MD /D_UNICODE /DUNICODE /DWIN32 /D_WINDOWS -IC:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\shirt launcher.c
+[dom mar 20 17:09:35 COT 2022][FINE] Start process compile-additional-sources...
+[dom mar 20 17:15:14 COT 2022][INFO] ==================== COMPILE TASK ====================
+[dom mar 20 17:15:15 COT 2022][INFO] We will now compile your code for x86_64-microsoft-windows. This may take some time.
+[dom mar 20 17:15:15 COT 2022][FINE] Extracting native libs to: C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\lib
+[dom mar 20 17:15:15 COT 2022][FINE] Looking for resource: /native/windows/launcher.c
+[dom mar 20 17:15:15 COT 2022][FINE] PB Command for compile-additional-sources: cl -c -DSUBSTRATE /MD /D_UNICODE /DUNICODE /DWIN32 /D_WINDOWS -IC:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\shirt launcher.c
+[dom mar 20 17:15:15 COT 2022][FINE] Start process compile-additional-sources...
+[dom mar 20 17:21:19 COT 2022][INFO] ==================== COMPILE TASK ====================
+[dom mar 20 17:21:20 COT 2022][INFO] We will now compile your code for x86_64-microsoft-windows. This may take some time.
+[dom mar 20 17:21:20 COT 2022][FINE] Extracting native libs to: C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\lib
+[dom mar 20 17:21:20 COT 2022][FINE] Looking for resource: /native/windows/launcher.c
+[dom mar 20 17:21:20 COT 2022][FINE] PB Command for compile-additional-sources: cl -c -DSUBSTRATE /MD /D_UNICODE /DUNICODE /DWIN32 /D_WINDOWS -IC:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\shirt launcher.c
+[dom mar 20 17:21:20 COT 2022][FINE] Start process compile-additional-sources...
+[dom mar 20 17:21:20 COT 2022][FINE] [SUB] Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31104 for x64
+[dom mar 20 17:21:20 COT 2022][FINE] [SUB] Copyright (C) Microsoft Corporation.  All rights reserved.
+[dom mar 20 17:21:20 COT 2022][FINE] [SUB] 
+[dom mar 20 17:21:20 COT 2022][FINE] [SUB] launcher.c
+[dom mar 20 17:21:20 COT 2022][FINE] Result for compile-additional-sources: 0
+[dom mar 20 17:21:20 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\META-INF\native-image\filter-file.json to C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\META-INF\native-image\filter-file.json
+[dom mar 20 17:21:20 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\module-info.class to C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\module-info.class
+[dom mar 20 17:21:20 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\controller\CanvasController.class to C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\sh\toxic\shirt\controller\CanvasController.class
+[dom mar 20 17:21:20 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\data\DrawType.class to C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\sh\toxic\shirt\data\DrawType.class
+[dom mar 20 17:21:20 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\data\Point.class to C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\sh\toxic\shirt\data\Point.class
+[dom mar 20 17:21:20 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\data\PointType.class to C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\sh\toxic\shirt\data\PointType.class
+[dom mar 20 17:21:20 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\data\ShirtData$ShirtDataBuilder.class to C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\sh\toxic\shirt\data\ShirtData$ShirtDataBuilder.class
+[dom mar 20 17:21:20 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\data\ShirtData.class to C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\sh\toxic\shirt\data\ShirtData.class
+[dom mar 20 17:21:20 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\data\ShirtDraw$ShirtDrawBuilder.class to C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\sh\toxic\shirt\data\ShirtDraw$ShirtDrawBuilder.class
+[dom mar 20 17:21:20 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\data\ShirtDraw.class to C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\sh\toxic\shirt\data\ShirtDraw.class
+[dom mar 20 17:21:20 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\data\ShirtEdge.class to C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\sh\toxic\shirt\data\ShirtEdge.class
+[dom mar 20 17:21:20 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\graphic\ShirtCanvas.class to C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\sh\toxic\shirt\graphic\ShirtCanvas.class
+[dom mar 20 17:21:20 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\HelloApplication.class to C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\sh\toxic\shirt\HelloApplication.class
+[dom mar 20 17:21:20 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\HelloController.class to C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\sh\toxic\shirt\HelloController.class
+[dom mar 20 17:21:20 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\math\Casteljau.class to C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\sh\toxic\shirt\math\Casteljau.class
+[dom mar 20 17:21:20 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\math\ShirtMath.class to C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\sh\toxic\shirt\math\ShirtMath.class
+[dom mar 20 17:21:20 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\shirt.css to C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\sh\toxic\shirt\shirt.css
+[dom mar 20 17:21:20 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\shirt.fxml to C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\sh\toxic\shirt\shirt.fxml
+[dom mar 20 17:21:20 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\TestingGround.class to C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\sh\toxic\shirt\TestingGround.class
+[dom mar 20 17:21:20 COT 2022][FINE] PB Command for jar: C:\Program Files\GraalVM\graalvm-ce-java17-22.0.0.2\bin\jar.exe cf C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\classes.jar -C C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255 .
+[dom mar 20 17:21:20 COT 2022][FINE] Start process jar...
+[dom mar 20 17:21:21 COT 2022][FINE] Result for jar: 0
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning for init build time files
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\com\dlsc\formsfx\formsfx-core\11.3.2\formsfx-core-11.3.2.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\eu\hansolo\tilesfx\11.48\tilesfx-11.48.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\net\synedra\validatorfx\0.1.13\validatorfx-0.1.13.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\org\controlsfx\controlsfx\11.1.0\controlsfx-11.1.0.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\org\kordamp\bootstrapfx\bootstrapfx-core\0.4.0\bootstrapfx-core-0.4.0.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\org\kordamp\ikonli\ikonli-core\12.2.0\ikonli-core-12.2.0.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\org\kordamp\ikonli\ikonli-javafx\12.2.0\ikonli-javafx-12.2.0.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.base.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.controls.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.fxml.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.graphics.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.media.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.web.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\classes.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning for reflection files
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\com\dlsc\formsfx\formsfx-core\11.3.2\formsfx-core-11.3.2.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\eu\hansolo\tilesfx\11.48\tilesfx-11.48.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\net\synedra\validatorfx\0.1.13\validatorfx-0.1.13.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\org\controlsfx\controlsfx\11.1.0\controlsfx-11.1.0.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\org\kordamp\bootstrapfx\bootstrapfx-core\0.4.0\bootstrapfx-core-0.4.0.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\org\kordamp\ikonli\ikonli-core\12.2.0\ikonli-core-12.2.0.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\org\kordamp\ikonli\ikonli-javafx\12.2.0\ikonli-javafx-12.2.0.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.base.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Adding classes from C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.base.jar::META-INF/substrate/config/reflectionconfig.json
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.controls.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Adding classes from C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.controls.jar::META-INF/substrate/config/reflectionconfig.json
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.fxml.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Adding classes from C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.fxml.jar::META-INF/substrate/config/reflectionconfig.json
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.graphics.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Adding classes from C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/reflectionconfig-x86_64-windows.json
+[dom mar 20 17:21:21 COT 2022][FINE] Adding classes from C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/reflectionconfig.json
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.media.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.web.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\classes.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning for JNI files
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\com\dlsc\formsfx\formsfx-core\11.3.2\formsfx-core-11.3.2.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\eu\hansolo\tilesfx\11.48\tilesfx-11.48.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\net\synedra\validatorfx\0.1.13\validatorfx-0.1.13.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\org\controlsfx\controlsfx\11.1.0\controlsfx-11.1.0.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\org\kordamp\bootstrapfx\bootstrapfx-core\0.4.0\bootstrapfx-core-0.4.0.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\org\kordamp\ikonli\ikonli-core\12.2.0\ikonli-core-12.2.0.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\org\kordamp\ikonli\ikonli-javafx\12.2.0\ikonli-javafx-12.2.0.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.base.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.controls.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.fxml.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.graphics.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Adding classes from C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/jniconfig-x86_64-windows.json
+[dom mar 20 17:21:21 COT 2022][FINE] Adding classes from C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/jniconfig.json
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.media.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.web.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\classes.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning for resource files
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\com\dlsc\formsfx\formsfx-core\11.3.2\formsfx-core-11.3.2.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\eu\hansolo\tilesfx\11.48\tilesfx-11.48.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\net\synedra\validatorfx\0.1.13\validatorfx-0.1.13.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\org\controlsfx\controlsfx\11.1.0\controlsfx-11.1.0.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\org\kordamp\bootstrapfx\bootstrapfx-core\0.4.0\bootstrapfx-core-0.4.0.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\org\kordamp\ikonli\ikonli-core\12.2.0\ikonli-core-12.2.0.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\org\kordamp\ikonli\ikonli-javafx\12.2.0\ikonli-javafx-12.2.0.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.base.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.controls.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.fxml.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.graphics.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.media.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.web.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Scanning C:\Users\abrah\AppData\Local\Temp\classes10842766706499068255\classes.jar
+[dom mar 20 17:21:21 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\META-INF\native-image\filter-file.json to C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\META-INF\native-image\filter-file.json
+[dom mar 20 17:21:21 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\module-info.class to C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\module-info.class
+[dom mar 20 17:21:21 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\controller\CanvasController.class to C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\sh\toxic\shirt\controller\CanvasController.class
+[dom mar 20 17:21:21 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\data\DrawType.class to C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\sh\toxic\shirt\data\DrawType.class
+[dom mar 20 17:21:21 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\data\Point.class to C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\sh\toxic\shirt\data\Point.class
+[dom mar 20 17:21:21 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\data\PointType.class to C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\sh\toxic\shirt\data\PointType.class
+[dom mar 20 17:21:21 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\data\ShirtData$ShirtDataBuilder.class to C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\sh\toxic\shirt\data\ShirtData$ShirtDataBuilder.class
+[dom mar 20 17:21:21 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\data\ShirtData.class to C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\sh\toxic\shirt\data\ShirtData.class
+[dom mar 20 17:21:21 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\data\ShirtDraw$ShirtDrawBuilder.class to C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\sh\toxic\shirt\data\ShirtDraw$ShirtDrawBuilder.class
+[dom mar 20 17:21:21 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\data\ShirtDraw.class to C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\sh\toxic\shirt\data\ShirtDraw.class
+[dom mar 20 17:21:21 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\data\ShirtEdge.class to C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\sh\toxic\shirt\data\ShirtEdge.class
+[dom mar 20 17:21:21 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\graphic\ShirtCanvas.class to C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\sh\toxic\shirt\graphic\ShirtCanvas.class
+[dom mar 20 17:21:21 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\HelloApplication.class to C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\sh\toxic\shirt\HelloApplication.class
+[dom mar 20 17:21:21 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\HelloController.class to C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\sh\toxic\shirt\HelloController.class
+[dom mar 20 17:21:21 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\math\Casteljau.class to C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\sh\toxic\shirt\math\Casteljau.class
+[dom mar 20 17:21:21 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\math\ShirtMath.class to C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\sh\toxic\shirt\math\ShirtMath.class
+[dom mar 20 17:21:21 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\shirt.css to C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\sh\toxic\shirt\shirt.css
+[dom mar 20 17:21:21 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\shirt.fxml to C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\sh\toxic\shirt\shirt.fxml
+[dom mar 20 17:21:21 COT 2022][FINE] Copied resource C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\classes\sh\toxic\shirt\TestingGround.class to C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\sh\toxic\shirt\TestingGround.class
+[dom mar 20 17:21:21 COT 2022][FINE] PB Command for jar: C:\Program Files\GraalVM\graalvm-ce-java17-22.0.0.2\bin\jar.exe cf C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\classes.jar -C C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880 .
+[dom mar 20 17:21:21 COT 2022][FINE] Start process jar...
+[dom mar 20 17:21:22 COT 2022][FINE] Result for jar: 0
+[dom mar 20 17:21:22 COT 2022][FINE] Scanning for resource bundles
+[dom mar 20 17:21:22 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\com\dlsc\formsfx\formsfx-core\11.3.2\formsfx-core-11.3.2.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\eu\hansolo\tilesfx\11.48\tilesfx-11.48.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\net\synedra\validatorfx\0.1.13\validatorfx-0.1.13.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\org\controlsfx\controlsfx\11.1.0\controlsfx-11.1.0.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\org\kordamp\bootstrapfx\bootstrapfx-core\0.4.0\bootstrapfx-core-0.4.0.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\org\kordamp\ikonli\ikonli-core\12.2.0\ikonli-core-12.2.0.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Scanning C:\Users\abrah\.m2\repository\org\kordamp\ikonli\ikonli-javafx\12.2.0\ikonli-javafx-12.2.0.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.base.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.controls.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Adding classes from C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.controls.jar::META-INF/substrate/config/resourcebundles
+[dom mar 20 17:21:22 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.fxml.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.graphics.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Adding classes from C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/resourcebundles
+[dom mar 20 17:21:22 COT 2022][FINE] Adding classes from C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.graphics.jar::META-INF/substrate/config/resourcebundles-x86_64-windows
+[dom mar 20 17:21:22 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.media.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Adding classes from C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.media.jar::META-INF/substrate/config/resourcebundles
+[dom mar 20 17:21:22 COT 2022][FINE] Scanning C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.web.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Adding classes from C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.web.jar::META-INF/substrate/config/resourcebundles
+[dom mar 20 17:21:22 COT 2022][FINE] Scanning C:\Users\abrah\AppData\Local\Temp\classes9630698266146982880\classes.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Copied resource C:\Users\abrah\.m2\repository\com\dlsc\formsfx\formsfx-core\11.3.2\formsfx-core-11.3.2.jar to C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\tmp\deps\formsfx-core-11.3.2.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Copied resource C:\Users\abrah\.m2\repository\eu\hansolo\tilesfx\11.48\tilesfx-11.48.jar to C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\tmp\deps\tilesfx-11.48.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Copied resource C:\Users\abrah\.m2\repository\net\synedra\validatorfx\0.1.13\validatorfx-0.1.13.jar to C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\tmp\deps\validatorfx-0.1.13.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Copied resource C:\Users\abrah\.m2\repository\org\controlsfx\controlsfx\11.1.0\controlsfx-11.1.0.jar to C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\tmp\deps\controlsfx-11.1.0.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Copied resource C:\Users\abrah\.m2\repository\org\kordamp\bootstrapfx\bootstrapfx-core\0.4.0\bootstrapfx-core-0.4.0.jar to C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\tmp\deps\bootstrapfx-core-0.4.0.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Copied resource C:\Users\abrah\.m2\repository\org\kordamp\ikonli\ikonli-core\12.2.0\ikonli-core-12.2.0.jar to C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\tmp\deps\ikonli-core-12.2.0.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Copied resource C:\Users\abrah\.m2\repository\org\kordamp\ikonli\ikonli-javafx\12.2.0\ikonli-javafx-12.2.0.jar to C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\tmp\deps\ikonli-javafx-12.2.0.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Copied resource C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.base.jar to C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\tmp\deps\javafx.base.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Copied resource C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.controls.jar to C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\tmp\deps\javafx.controls.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Copied resource C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.fxml.jar to C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\tmp\deps\javafx.fxml.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Copied resource C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.graphics.jar to C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\tmp\deps\javafx.graphics.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Copied resource C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.media.jar to C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\tmp\deps\javafx.media.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Copied resource C:\Users\abrah\.gluon\substrate\javafxStaticSdk\18-ea+10\windows-x86_64\sdk\lib\javafx.web.jar to C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\tmp\deps\javafx.web.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Class-Path manifest entry for pathing jar: ..\..\..\..\classes deps\formsfx-core-11.3.2.jar deps\tilesfx-11.48.jar deps\validatorfx-0.1.13.jar deps\controlsfx-11.1.0.jar deps\bootstrapfx-core-0.4.0.jar deps\ikonli-core-12.2.0.jar deps\ikonli-javafx-12.2.0.jar deps\javafx.base.jar deps\javafx.controls.jar deps\javafx.fxml.jar deps\javafx.graphics.jar deps\javafx.media.jar deps\javafx.web.jar
+[dom mar 20 17:21:22 COT 2022][FINE] Pathing jar created at C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\tmp\classpathJar.jar
+[dom mar 20 17:21:22 COT 2022][FINE] PB Command for compile: C:\Program Files\GraalVM\graalvm-ce-java17-22.0.0.2\bin\native-image.cmd "-Djdk.internal.lambda.eagerlyInitialize=false" --no-server -H:+ExitAfterRelocatableImageWrite -H:+SharedLibrary -H:+AddAllCharsets -H:+ReportExceptionStackTraces -H:-DeadlockWatchdogExitOnTimeout "-H:DeadlockWatchdogInterval=0" -H:+RemoveSaturatedTypeFlows "--features=org.graalvm.home.HomeFinderFeature" "-H:TempDirectory=C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\tmp" "-H:EnableURLProtocols=http,https" "-H:ReflectionConfigurationFiles=C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\reflectionconfig-x86_64-windows.json" "-H:JNIConfigurationFiles=C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\jniconfig-x86_64-windows.json" "-H:ResourceConfigurationFiles=C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\resourceconfig-x86_64-windows.json" "-H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle,com/sun/glass/ui/win/themes,com.sun.media.jfxmedia.MediaErrors,com.sun.webkit.graphics.Images,com.sun.webkit.LocalizedStrings,javafx.scene.web.HTMLEditorSkin,com.sun.org.apache.xerces.internal.impl.msg.XMLMessages" "-Dsvm.platform=org.graalvm.nativeimage.Platform$WINDOWS_AMD64" -cp "C:\Users\abrah\.m2\repository\com\gluonhq\substrate\0.0.52\substrate-0.0.52.jar;C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\tmp\classpathJar.jar" sh.toxic.shirt.HelloApplication
+[dom mar 20 17:21:22 COT 2022][FINE] Start process compile...
+[dom mar 20 17:21:22 COT 2022][INFO] [SUB] Warning: Ignoring server-mode native-image argument --no-server.
+[dom mar 20 17:21:25 COT 2022][INFO] [SUB] ========================================================================================================================
+[dom mar 20 17:21:25 COT 2022][INFO] [SUB] GraalVM Native Image: Generating 'sh.toxic.shirt.helloapplication'...
+[dom mar 20 17:21:25 COT 2022][INFO] [SUB] ========================================================================================================================
+[dom mar 20 17:21:28 COT 2022][INFO] [SUB] [1/7] Initializing...                                                                                    (5,0s @ 0,18GB)
+[dom mar 20 17:21:28 COT 2022][INFO] [SUB]  Version info: 'GraalVM 22.0.0.2 Java 17 CE'
+[dom mar 20 17:22:09 COT 2022][INFO] [SUB] [2/7] Performing analysis...  [************]                                                            (40,4s @ 2,10GB)
+[dom mar 20 17:22:09 COT 2022][INFO] [SUB]   11.438 (88,89%) of 12.867 classes reachable
+[dom mar 20 17:22:09 COT 2022][INFO] [SUB]   20.709 (73,43%) of 28.201 fields reachable
+[dom mar 20 17:22:09 COT 2022][INFO] [SUB]   56.098 (61,37%) of 91.414 methods reachable
+[dom mar 20 17:22:09 COT 2022][INFO] [SUB]      659 classes,   180 fields, and 1.394 methods registered for reflection
+[dom mar 20 17:22:09 COT 2022][INFO] [SUB]      134 classes,   150 fields, and   206 methods registered for JNI access
+[dom mar 20 17:22:16 COT 2022][INFO] [SUB] [3/7] Building universe...                                                                               (7,2s @ 2,88GB)
+[dom mar 20 17:22:18 COT 2022][INFO] [SUB] [4/7] Parsing methods...      [*]                                                                        (1,4s @ 4,04GB)
+[dom mar 20 17:22:32 COT 2022][INFO] [SUB] [5/7] Inlining methods...     [*****]                                                                   (13,6s @ 1,63GB)
+[dom mar 20 17:22:46 COT 2022][INFO] [SUB] [6/7] Compiling methods...    [****]                                                                    (14,3s @ 2,65GB)
+[dom mar 20 17:22:52 COT 2022][INFO] [SUB] [7/7] Creating image...
+[dom mar 20 17:22:52 COT 2022][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[dom mar 20 17:22:52 COT 2022][INFO] [SUB]                        14,0s (15,6% of total time) in 37 GCs | Peak RSS: 5,25GB | CPU load: 8,84
+[dom mar 20 17:22:52 COT 2022][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[dom mar 20 17:22:52 COT 2022][INFO] [SUB] Produced artifacts:
+[dom mar 20 17:22:52 COT 2022][INFO] [SUB]  C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\shirt\sh.toxic.shirt.helloapplication.h (header)
+[dom mar 20 17:22:52 COT 2022][INFO] [SUB]  C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\shirt\graal_isolate.h (header)
+[dom mar 20 17:22:52 COT 2022][INFO] [SUB]  C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\shirt\sh.toxic.shirt.helloapplication_dynamic.h (header)
+[dom mar 20 17:22:52 COT 2022][INFO] [SUB]  C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\shirt\graal_isolate_dynamic.h (header)
+[dom mar 20 17:22:52 COT 2022][INFO] [SUB]  C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\gvm\shirt\sh.toxic.shirt.helloapplication.build_artifacts.txt
+[dom mar 20 17:22:52 COT 2022][INFO] [SUB] ========================================================================================================================
+[dom mar 20 17:22:52 COT 2022][INFO] [SUB] Finished generating 'sh.toxic.shirt.helloapplication' in 1m 28s.
+[dom mar 20 17:22:53 COT 2022][FINE] Result for compile: 0
+[dom mar 20 17:22:53 COT 2022][FINE] Logging process [compile] to file: C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\log\process-compile-1647814973553.log
+[dom mar 20 17:22:53 COT 2022][FINE] PB Command for java-version: C:\Program Files\GraalVM\graalvm-ce-java17-22.0.0.2\bin\java --version
+[dom mar 20 17:22:53 COT 2022][FINE] Start process java-version...
+[dom mar 20 17:22:53 COT 2022][FINE] [SUB] openjdk 17.0.2 2022-01-18
+[dom mar 20 17:22:53 COT 2022][FINE] [SUB] OpenJDK Runtime Environment GraalVM CE 22.0.0.2 (build 17.0.2+8-jvmci-22.0-b05)
+[dom mar 20 17:22:53 COT 2022][FINE] [SUB] OpenJDK 64-Bit Server VM GraalVM CE 22.0.0.2 (build 17.0.2+8-jvmci-22.0-b05, mixed mode, sharing)
+[dom mar 20 17:22:53 COT 2022][FINE] Result for java-version: 0
+[dom mar 20 17:22:53 COT 2022][FINE] PB Command for check version: C:\Program Files\GraalVM\graalvm-ce-java17-22.0.0.2\bin\java -version
+[dom mar 20 17:22:53 COT 2022][FINE] Start process check version...
+[dom mar 20 17:22:53 COT 2022][FINE] [SUB] openjdk version "17.0.2" 2022-01-18
+[dom mar 20 17:22:53 COT 2022][FINE] [SUB] OpenJDK Runtime Environment GraalVM CE 22.0.0.2 (build 17.0.2+8-jvmci-22.0-b05)
+[dom mar 20 17:22:53 COT 2022][FINE] [SUB] OpenJDK 64-Bit Server VM GraalVM CE 22.0.0.2 (build 17.0.2+8-jvmci-22.0-b05, mixed mode, sharing)
+[dom mar 20 17:22:53 COT 2022][FINE] Result for check version: 0
+[dom mar 20 17:22:53 COT 2022][INFO] Substrate is tested with the Gluon's GraalVM build which you can find at https://github.com/gluonhq/graal/releases.
+While you can still use other GraalVM builds, there is no guarantee that these will work properly with Substrate
+[dom mar 20 17:26:22 COT 2022][INFO] ==================== RUN TASK ====================
+[dom mar 20 17:26:22 COT 2022][FINE] PB Command for run until end: C:\Users\abrah\Toxic\Universidad\CGrafica\javafx\target\gluonfx\x86_64-windows\shirt.exe
+[dom mar 20 17:26:22 COT 2022][FINE] Start process run until end...
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] Mar 20, 2022 5:26:22 PM com.sun.javafx.application.PlatformImpl startup
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @343200ce'
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] Exception in Application start method
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] Exception in thread "main" java.lang.RuntimeException: Exception in Application start method
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:901)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication$2(LauncherImpl.java:196)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at java.lang.Thread.run(Thread.java:833)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at com.oracle.svm.core.thread.JavaThreads.threadStartRoutine(JavaThreads.java:597)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at com.oracle.svm.core.windows.WindowsJavaThreads.osThreadStartRoutine(WindowsJavaThreads.java:140)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] Caused by: javafx.fxml.LoadException: 
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] sh/toxic/shirt/shirt.fxml
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at javafx.fxml.FXMLLoader.importClass(FXMLLoader.java:2949)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at javafx.fxml.FXMLLoader.processImport(FXMLLoader.java:2793)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at javafx.fxml.FXMLLoader.processProcessingInstruction(FXMLLoader.java:2758)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2624)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2516)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at sh.toxic.shirt.HelloApplication.start(HelloApplication.java:26)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:847)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:484)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at java.security.AccessController.doPrivileged(AccessController.java:107)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at com.oracle.svm.jni.JNIJavaCallWrappers.jniInvoke_VA_LIST_Runnable_run_16403f8d32adb631126daa893e5e80085c5d6325(JNIJavaCallWrappers.java:0)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at com.sun.glass.ui.win.WinApplication._runLoop(WinApplication.java)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	... 3 more
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] Caused by: java.lang.ClassNotFoundException: javafx.scene.control.ColorPicker
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:54)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:141)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at javafx.fxml.FXMLLoader.loadTypeForPackage(FXMLLoader.java:3017)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at javafx.fxml.FXMLLoader.loadType(FXMLLoader.java:3006)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	at javafx.fxml.FXMLLoader.importClass(FXMLLoader.java:2947)
+[dom mar 20 17:26:22 COT 2022][INFO] [SUB] 	... 18 more
+[dom mar 20 17:26:22 COT 2022][FINE] Result for run until end: 0

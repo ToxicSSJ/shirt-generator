@@ -21,6 +21,9 @@ public class ShirtCanvas extends Canvas {
     private int baseX = 0;
     private int baseY = 0;
 
+    private int offsetX = 0;
+    private int offsetY = 0;
+
     private int[][][] transpose;
     private Point[][] current;
     private Point[][] points;
@@ -32,15 +35,31 @@ public class ShirtCanvas extends Canvas {
     private ShirtData data = new ShirtData();
 
     private Color color = Color.WHITE;
+
     private int rotates = 0;
+    private int scales = 1;
 
     private boolean update;
+    private boolean reference;
+
+    private int baseWidth;
+    private int baseHeight;
 
     public ShirtCanvas(int width, int height) {
-        super(width, height);
+        super(width * 2, height * 2);
 
-        baseX = width / 3;
-        baseY = height / 3;
+        baseWidth = width;
+        baseHeight = height;
+
+        //setBaseX(width / 2);
+        //setBaseY(height / 2);
+
+        //setScaleX(0.5);
+        //setScaleY(0.5);
+
+        //baseX = width / 3;
+        //baseY = height / 3;
+
 
         update = true;
         edges = new LinkedList<>();
@@ -50,11 +69,7 @@ public class ShirtCanvas extends Canvas {
         glow.setLevel(2);
         setEffect(glow);
 
-        // ? These are our bases
-        // addHip(); // Cadera (Hip)
-        // addBack(); // Espalda (Back)
-        // addWidth(); // Largo (Width)
-        // addLength(); // Ancho (Length)
+
 
 
 
@@ -85,15 +100,28 @@ public class ShirtCanvas extends Canvas {
         if(!update) return;
         update = false;
 
+        baseX = (baseWidth / 3) + offsetX;
+        baseY = (baseHeight / 3) + offsetY;
+
         // * Clear everything
-        current = new Point[(int) getWidth()][(int) getHeight()];
-        points = new Point[(int) getWidth()][(int) getHeight()];
+        current = new Point[baseWidth][baseHeight];
+        points = new Point[baseWidth][baseHeight];
         gc.clearRect(0, 0, getWidth(), getHeight());
         current = points;
         edges.clear();
 
         //gc.setFill(Color.rgb(45, 45, 134));
         //gc.fillRect(0, 0, getWidth(), getHeight());
+
+        // ? These are our bases
+        if(reference) {
+
+            addHip(); // Cadera (Hip)
+            addBack(); // Espalda (Back)
+            addWidth(); // Largo (Width)
+            addLength(); // Ancho (Length)
+
+        }
 
         // ? Pre-sleeves
         addLeftPreSleeve();
@@ -113,11 +141,10 @@ public class ShirtCanvas extends Canvas {
         addRightHipLength();
         addHipLongitude();
 
-        // current = rotate(current, Math.toRadians(90));
         for(int i = 0; i < rotates; i++)
             current = rotateCW(current);
 
-        current = scale(current, 2);
+        current = scale(current, scales);
 
         for(int x = 0; x < current.length; x++)
             for(int y = 0; y < current[x].length; y++) {
@@ -160,7 +187,7 @@ public class ShirtCanvas extends Canvas {
 
         // drawSilhouette();
 
-        // Union (Hip-Length)
+        // Draw edges
         for(ShirtEdge edge : edges) {
 
             if(edge.getPointA() == null || edge.getPointB() == null)
@@ -168,6 +195,8 @@ public class ShirtCanvas extends Canvas {
 
             if(edge.getColor() == Color.WHITE)
                 gc.setStroke(color);
+            else
+                gc.setStroke(edge.getColor());
 
             // drawLine(edge.getX1(), edge.getY1(), edge.getX2(), edge.getY2());
 
@@ -218,6 +247,7 @@ public class ShirtCanvas extends Canvas {
 
     }
 
+    /*
     private void drawSilhouette() {
 
         ShirtEdge back = getEdge(PointType.BACK_A);
@@ -258,17 +288,14 @@ public class ShirtCanvas extends Canvas {
         // ShirtDraw neckLeft = drawCurve(DrawType.NECK_LEFT, preSleeveLeft.getEndX(), preSleeveLeft.getEndY(), preSleeveLeft.getEndX() + neckWidth, preSleeveLeft.getEndY() - neckHeight, 0, 0);
         // ShirtDraw neckRight = drawCurve(DrawType.NECK_RIGHT, preSleeveRight.getEndX(), preSleeveRight.getEndY(), preSleeveRight.getEndX() - neckWidth, preSleeveRight.getEndY() - neckHeight, 0, 0);
 
-        System.out.println(neckHeight);
-
         // * Neck
         // ShirtDraw neckLeftCurve = drawCurve(DrawType.NECK, neckLeft.getEndX(), neckLeft.getEndY(), baseX + shirtCenterX, neckLeft.getEndY() + 15, 15, 15);
         // ShirtDraw neckRightCurve = drawCurve(DrawType.NECK, neckRight.getEndX(), neckRight.getEndY(), neckLeftCurve.getEndX(), neckLeftCurve.getEndY(), -15, 15);
         // ShirtDraw neckInsideCurve = drawCurve(DrawType.NECK_INSIDE, neckLeft.getEndX(), neckLeft.getEndY(), neckRight.getEndX(), neckRight.getEndY(), 15, 0);
 
-        System.out.println("WTF");
+    }*/
 
-    }
-
+    /*
     private ShirtDraw drawCurve(DrawType drawType, double x1, double y1, double x2, double y2, double xoffset, double yoffset) {
 
         double precision = 0.1;
@@ -305,7 +332,7 @@ public class ShirtCanvas extends Canvas {
 
     private ShirtEdge getEdge(PointType startType) {
         return edges.stream().filter(edge -> edge.getParent() == startType.getParent()).findAny().get();
-    }
+    }*/
 
     private void addRightPreSleeve() {
 
@@ -516,8 +543,13 @@ public class ShirtCanvas extends Canvas {
     }
 
     private void add(int x, int y, PointType type) {
+
+        if(x < 0 || y < 0) return;
+        if(x > points.length || y > points[x].length) return;
+
         if(points[x][y] == null) points[x][y] = new Point();
         points[x][y].add(type);
+
     }
 
     private void drawLine(double x1, double y1, double x2, double y2) {
