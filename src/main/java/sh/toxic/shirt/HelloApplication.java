@@ -1,10 +1,13 @@
 package sh.toxic.shirt;
 
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.HBox;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
+import sh.toxic.shirt.controller.CanvasController;
 import sh.toxic.shirt.graphic.ShirtCanvas;
 
 import java.io.IOException;
@@ -15,17 +18,18 @@ public class HelloApplication extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        // FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
 
-        ShirtCanvas shirtCanvas = new ShirtCanvas(500, 500);
+        ShirtCanvas shirtCanvas = new ShirtCanvas(600, 600);
 
-        root.getChildren().add(shirtCanvas);
-        root.setLayoutX(0);
-        root.setLayoutY(0);
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("shirt.fxml"));
+        fxmlLoader.setController(new CanvasController(shirtCanvas, stage));
+        fxmlLoader.load();
 
-        Scene scene = new Scene(root, 500, 500, Color.GREY);
-        stage.setTitle("Hello!");
+        Scene scene = new Scene(fxmlLoader.getRoot(), Color.rgb(51, 51, 153));
+        stage.setTitle("Shirt Generator - v0.1");
         stage.setScene(scene);
+        stage.initStyle(StageStyle.UTILITY);
+        stage.resizableProperty().setValue(false);
         stage.show();
 
     }

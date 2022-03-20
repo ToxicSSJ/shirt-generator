@@ -14,6 +14,8 @@ module sh.toxic.shirt {
     requires eu.hansolo.tilesfx;
 
     opens sh.toxic.shirt to javafx.fxml;
+    opens sh.toxic.shirt.controller to javafx.fxml;
+
     exports sh.toxic.shirt;
 
 }

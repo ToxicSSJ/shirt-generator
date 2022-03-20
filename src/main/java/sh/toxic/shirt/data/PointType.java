@@ -17,38 +17,53 @@ public enum PointType {
     HIP_A(3, true, 0, 0, Color.YELLOW),
     HIP_B(3, false, 0, 0, Color.YELLOW),
 
-    PRE_SLEEVE_RIGHT_A(4, true, 0, 0, Color.BLACK),
-    PRE_SLEEVE_RIGHT_B(4, false, 0, 0, Color.BLACK),
+    PRE_SLEEVE_RIGHT_A(4, true, 0, 0, Color.WHITE),
+    PRE_SLEEVE_RIGHT_B(4, false, 0, 0, Color.WHITE),
 
-    PRE_SLEEVE_RIGHT_C(5, true, 0, 0, Color.BLACK),
-    PRE_SLEEVE_RIGHT_D(5, false, 0, 0, Color.BLACK),
+    PRE_SLEEVE_RIGHT_C(5, true, 0, 0, Color.WHITE),
+    PRE_SLEEVE_RIGHT_D(5, false, 0, 0, Color.WHITE),
 
-    PRE_SLEEVE_RIGHT_E(6, true, 0, 0, Color.BLACK),
-    PRE_SLEEVE_RIGHT_F(6, false, 0, 0, Color.BLACK),
+    PRE_SLEEVE_RIGHT_E(6, true, 0, 0, Color.WHITE),
+    PRE_SLEEVE_RIGHT_F(6, false, 0, 0, Color.WHITE),
 
-    PRE_SLEEVE_LEFT_A(7, true, 0, 0, Color.BLACK),
-    PRE_SLEEVE_LEFT_B(7, false, 0, 0, Color.BLACK),
+    PRE_SLEEVE_LEFT_A(7, true, 0, 0, Color.WHITE),
+    PRE_SLEEVE_LEFT_B(7, false, 0, 0, Color.WHITE),
 
-    PRE_SLEEVE_LEFT_C(8, true, 0, 0, Color.BLACK),
-    PRE_SLEEVE_LEFT_D(8, false, 0, 0, Color.BLACK),
+    PRE_SLEEVE_LEFT_C(8, true, 0, 0, Color.WHITE),
+    PRE_SLEEVE_LEFT_D(8, false, 0, 0, Color.WHITE),
 
-    PRE_SLEEVE_LEFT_E(9, true, 0, 0, Color.BLACK),
-    PRE_SLEEVE_LEFT_F(9, false, 0, 0, Color.BLACK),
+    PRE_SLEEVE_LEFT_E(9, true, 0, 0, Color.WHITE),
+    PRE_SLEEVE_LEFT_F(9, false, 0, 0, Color.WHITE),
 
-    PRE_NECK_RIGHT_A(10, true, 0, 0, Color.BLACK),
-    PRE_NECK_RIGHT_B(10, false, 0, 0, Color.BLACK),
+    PRE_NECK_RIGHT_A(10, true, 0, 0, Color.WHITE),
+    PRE_NECK_RIGHT_B(10, false, 0, 0, Color.WHITE),
 
-    PRE_NECK_RIGHT_C(11, true, 0, 0, Color.BLACK),
-    PRE_NECK_RIGHT_D(11, false, 15, 15, Color.BLACK),
+    PRE_NECK_RIGHT_C(11, true, 0, 0, Color.WHITE),
+    PRE_NECK_RIGHT_D(11, false, 15, 15, Color.WHITE),
 
-    PRE_NECK_LEFT_A(12, true, 0, 0, Color.BLACK),
-    PRE_NECK_LEFT_B(12, false, 0, 0, Color.BLACK),
+    PRE_NECK_LEFT_A(12, true, 0, 0, Color.WHITE),
+    PRE_NECK_LEFT_B(12, false, 0, 0, Color.WHITE),
 
-    PRE_NECK_LEFT_C(13, true, 0, 0, Color.BLACK),
-    PRE_NECK_LEFT_D(13, false, 15, 15, Color.BLACK),
+    PRE_NECK_LEFT_C(13, true, 0, 0, Color.WHITE),
+    PRE_NECK_LEFT_D(13, false, 15, 15, Color.WHITE),
 
-    PRE_NECK_BACK_A(14, true, 0, 0, Color.BLACK),
-    PRE_NECK_BACK_B(14, false, 0, 0, Color.BLACK),
+    PRE_NECK_BACK_A(14, true, 0, 0, Color.WHITE),
+    PRE_NECK_BACK_B(14, false, 1, 3, Color.WHITE),
+
+    PRE_HIP_LENGTH_RIGHT_A(15, true, 5, 5, Color.WHITE),
+    PRE_HIP_LENGTH_RIGHT_B(15, false, 5, 5, Color.WHITE),
+
+    PRE_HIP_LENGTH_LEFT_A(16, true, 5, 5, Color.WHITE),
+    PRE_HIP_LENGTH_LEFT_B(16, false, 5, 5, Color.WHITE),
+
+    PRE_HIP_LONGITUDE_A(17, true, 5, 5, Color.WHITE),
+    PRE_HIP_LONGITUDE_B(17, false, 5, 5, Color.WHITE),
+
+    PRE_SLEEVE_UNION_A(18, true, 0, 0, Color.WHITE),
+    PRE_SLEEVE_UNION_B(18, false, -5, 5, Color.WHITE),
+
+    PRE_SLEEVE_UNION_C(19, true, 0, 0, Color.WHITE),
+    PRE_SLEEVE_UNION_D(19, false, -5, 5, Color.WHITE),
 
     ;
 
