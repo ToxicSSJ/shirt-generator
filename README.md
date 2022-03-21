@@ -24,7 +24,7 @@ Para descargar se puede ir al apartado de `releases` o utilizar este link: <http
 
 ## Compilar
 
-Para compilar es importante contar con las tecnologías utilizadas en el apartado de arriba, se recomienda de hecho usar `GraalVM 22.0.0.2` para tener la menor cantidad de problemas posibles. Asi mismo, una vez instalados todos los requisitos es necesario clonar el proyecto y basta con ejecutar la task `mvn javafx:run` en la raiz del `pom.xml` para compilar y ejecutar programa.
+Para compilar es importante contar con las tecnologías utilizadas en el apartado de arriba, se recomienda de hecho usar el JDK de `GraalVM 22.0.0.2` para tener la menor cantidad de problemas posibles. Asi mismo, una vez instalados todos los requisitos es necesario clonar el proyecto y basta con ejecutar la task `mvn javafx:run` en la raiz del `pom.xml` para compilar y ejecutar programa.
 
 ## Utilizar
 
