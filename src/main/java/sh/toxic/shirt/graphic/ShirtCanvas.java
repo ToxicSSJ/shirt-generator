@@ -51,16 +51,6 @@ public class ShirtCanvas extends Canvas {
         baseWidth = width;
         baseHeight = height;
 
-        //setBaseX(width / 2);
-        //setBaseY(height / 2);
-
-        //setScaleX(0.5);
-        //setScaleY(0.5);
-
-        //baseX = width / 3;
-        //baseY = height / 3;
-
-
         update = true;
         edges = new LinkedList<>();
         gc = getGraphicsContext2D();
@@ -69,28 +59,6 @@ public class ShirtCanvas extends Canvas {
         glow.setLevel(2);
         setEffect(glow);
 
-
-
-
-
-        // Update
-        // update();
-
-        // Clear
-
-
-
-        // Rotate
-        // current = scale(current, 2);
-        // current = rotateCW(current);
-        // current = rotateCW(current);
-        // current = rotateCW(current);
-        // current = rotateCW(current);
-        // points = rotateCW(points);
-        // points = rotateCW(points);
-        // points = rotateCW(points);
-
-        // Update
         update();
 
     }
@@ -109,9 +77,6 @@ public class ShirtCanvas extends Canvas {
         gc.clearRect(0, 0, getWidth(), getHeight());
         current = points;
         edges.clear();
-
-        //gc.setFill(Color.rgb(45, 45, 134));
-        //gc.fillRect(0, 0, getWidth(), getHeight());
 
         // ? These are our bases
         if(reference) {
@@ -220,10 +185,6 @@ public class ShirtCanvas extends Canvas {
             else
                 bezierOffsetY = pointB.getBezierOffY();
 
-            if(edge.getPointB() == PointType.PRE_NECK_RIGHT_D || edge.getPointB() == PointType.PRE_NECK_LEFT_D) {
-                // System.out.println(edge.getPointB().name() + " = (X1: " + edge.getX1() + ", Y1: " + edge.getY1() + "), (X2: " + edge.getX2() + ", Y2: " + edge.getY2() + "), (OFFX: " + bezierOffsetX + ", OFFY: " + bezierOffsetY + ")");
-            }
-
             for(double t = 0; t < 1; t += precision) {
 
                 double[] point = ShirtMath.casteljau(t, edge.getX1(), edge.getY1(), edge.getX2(), edge.getY2(), bezierOffsetX, bezierOffsetY);
@@ -246,93 +207,6 @@ public class ShirtCanvas extends Canvas {
         }
 
     }
-
-    /*
-    private void drawSilhouette() {
-
-        ShirtEdge back = getEdge(PointType.BACK_A);
-        ShirtEdge width = getEdge(PointType.WIDTH_A);
-        ShirtEdge hip = getEdge(PointType.HIP_A);
-        ShirtEdge length = getEdge(PointType.LENGTH_A);
-
-        // * Hips
-        ShirtDraw hipLengthLeft = drawCurve(DrawType.HIP_LENGTH_LEFT, hip.getX1(), hip.getY1(), length.getX1(), length.getY1(), 5, 5);
-        ShirtDraw hipLengthRight = drawCurve(DrawType.HIP_LENGTH_RIGHT, hip.getX2(), hip.getY2(), length.getX2(), length.getY2(), -5, -5);
-        ShirtDraw hipLongitude = drawCurve(DrawType.HIP_LONGITUDE, hip.getX1(), hip.getY1(), hip.getX2(), hip.getY2(), 5, -5);
-
-        // * Pre-Sleeve
-        ShirtDraw preSleeveLeft = drawCurve(DrawType.PRE_SLEEVE_LEFT, hipLengthLeft.getEndX(), hipLengthLeft.getEndY(), back.getX1(), back.getY1(), 0.5, 5);
-        ShirtDraw preSleeveRight = drawCurve(DrawType.PRE_SLEEVE_RIGHT, hipLengthRight.getEndX(), hipLengthRight.getEndY(), back.getX2(), back.getY2(), -0.5, 5);
-
-        int sleeveLongLength = data.getBack() / 3;
-
-        double neckCurve = data.getBack() / 10;
-        double neckHeight = data.getBack() / 9;
-        double neckWidth = data.getBack() / 3;
-
-        double shirtCenterX = ((data.getBack() - data.getHip()) / 2) + (data.getHip() / 2);
-
-        // ShirtDraw sleeveLeft1 = drawCurve(DrawType.SLEEVE_LEFT, back.getX1(), back.getY1(), length.getX1(), length.getY1() + 5, 0, 0);
-
-        // * Sleeve Left
-        // ShirtDraw sleeveLeft11 = drawCurve(DrawType.SLEEVE_LEFT, back.getX1(), back.getY1(), preSleeveLeft.getEndX() - sleeveLongLength, preSleeveLeft.getEndY() + sleeveLongLength, 0, 0);
-        // ShirtDraw sleeveLeft2 = drawCurve(DrawType.SLEEVE_LEFT, length.getX1(), length.getY1(), preSleeveLeft.getStartX() - (sleeveLongLength / 2), preSleeveLeft.getStartY() + (sleeveLongLength / 2), 0, 0);
-        // ShirtDraw sleeveLeft3 = drawCurve(DrawType.SLEEVE_LEFT, sleeveLeft1.getEndX(), sleeveLeft1.getEndY(), sleeveLeft2.getEndX(), sleeveLeft2.getEndY(), 0, 0);
-
-        // * Sleeve Right
-        // ShirtDraw sleeveRight1 = drawCurve(DrawType.SLEEVE_RIGHT, back.getX2(), back.getY2(), preSleeveRight.getEndX() + sleeveLongLength, preSleeveRight.getEndY() + sleeveLongLength, 0, 0);
-        // ShirtDraw sleeveRight2 = drawCurve(DrawType.SLEEVE_RIGHT, length.getX2(), length.getY2(), preSleeveRight.getStartX() + (sleeveLongLength / 2), preSleeveRight.getStartY() + (sleeveLongLength / 2), 0, 0);
-        // ShirtDraw sleeveRight3 = drawCurve(DrawType.SLEEVE_RIGHT, sleeveRight1.getEndX(), sleeveRight1.getEndY(), sleeveRight2.getEndX(), sleeveRight2.getEndY(), 0, 0);
-
-        // * Pre Neck
-        // ShirtDraw neckLeft = drawCurve(DrawType.NECK_LEFT, preSleeveLeft.getEndX(), preSleeveLeft.getEndY(), preSleeveLeft.getEndX() + neckWidth, preSleeveLeft.getEndY() - neckHeight, 0, 0);
-        // ShirtDraw neckRight = drawCurve(DrawType.NECK_RIGHT, preSleeveRight.getEndX(), preSleeveRight.getEndY(), preSleeveRight.getEndX() - neckWidth, preSleeveRight.getEndY() - neckHeight, 0, 0);
-
-        // * Neck
-        // ShirtDraw neckLeftCurve = drawCurve(DrawType.NECK, neckLeft.getEndX(), neckLeft.getEndY(), baseX + shirtCenterX, neckLeft.getEndY() + 15, 15, 15);
-        // ShirtDraw neckRightCurve = drawCurve(DrawType.NECK, neckRight.getEndX(), neckRight.getEndY(), neckLeftCurve.getEndX(), neckLeftCurve.getEndY(), -15, 15);
-        // ShirtDraw neckInsideCurve = drawCurve(DrawType.NECK_INSIDE, neckLeft.getEndX(), neckLeft.getEndY(), neckRight.getEndX(), neckRight.getEndY(), 15, 0);
-
-    }*/
-
-    /*
-    private ShirtDraw drawCurve(DrawType drawType, double x1, double y1, double x2, double y2, double xoffset, double yoffset) {
-
-        double precision = 0.1;
-
-        double[] firstPoint = new double[0];
-        double[] lastPoint = new double[0];
-
-        for(double t = 0; t < 1; t += precision) {
-
-            double[] point = ShirtMath.casteljau(t, x1, y1, x2, y2, xoffset, yoffset);
-
-            if(firstPoint == null || firstPoint.length == 0)
-                firstPoint = point;
-
-            if(lastPoint != null && lastPoint.length > 0) {
-
-                gc.setFill(Color.BLACK);
-                gc.strokeLine(point[0], point[1], lastPoint[0], lastPoint[1]);
-                // drawLine(point[0], point[1], lastPoint[0], lastPoint[1]);
-
-            }
-
-            lastPoint = point;
-
-        }
-
-        return ShirtDraw.builder()
-                .drawType(drawType)
-                .start(firstPoint)
-                .end(lastPoint)
-                .build();
-
-    }
-
-    private ShirtEdge getEdge(PointType startType) {
-        return edges.stream().filter(edge -> edge.getParent() == startType.getParent()).findAny().get();
-    }*/
 
     private void addRightPreSleeve() {
 
@@ -590,47 +464,6 @@ public class ShirtCanvas extends Canvas {
                 newArray[i][j] = mat[(int) (i/multiplier)][(int) (j/multiplier)];
             }
         return newArray;
-    }
-
-    public int[][] rotateMatrixRight(int[][] matrix) {
-        /* W and H are already swapped */
-        int w = matrix.length;
-        int h = matrix[0].length;
-        int[][] ret = new int[h][w];
-        for (int i = 0; i < h; ++i) {
-            for (int j = 0; j < w; ++j) {
-                ret[i][j] = matrix[w - j - 1][i];
-            }
-        }
-        return ret;
-    }
-
-
-    public int[][] rotateMatrixLeft(int[][] matrix) {
-        /* W and H are already swapped */
-        int w = matrix.length;
-        int h = matrix[0].length;
-        int[][] ret = new int[h][w];
-        for (int i = 0; i < h; ++i) {
-            for (int j = 0; j < w; ++j) {
-                ret[i][j] = matrix[j][h - i - 1];
-            }
-        }
-        return ret;
-    }
-
-    public Point[][] rotate(Point[][] matrix, double angle) {
-        /* W and H are already swapped */
-        int w = matrix.length;
-        int h = matrix[0].length;
-        Point[][] ret = new Point[h][w];
-        for (int i = 0; i < h; ++i) {
-            for (int j = 0; j < w; ++j) {
-
-                ret[i][j] = matrix[(int) (i * Math.cos(angle) - j * Math.sin(angle))][(int) (i * Math.sin(angle) + j * Math.cos(angle))];
-            }
-        }
-        return ret;
     }
 
 }

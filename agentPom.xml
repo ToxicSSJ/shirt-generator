@@ -118,7 +118,7 @@
           <execution>
             <id>default-cli</id>
             <configuration>
-              <mainClass>sh.toxic.shirt/sh.toxic.shirt.HelloApplication</mainClass>
+              <mainClass>sh.toxic.shirt/sh.toxic.shirt.ShirtApplication</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>
@@ -134,7 +134,7 @@
         <artifactId>gluonfx-maven-plugin</artifactId>
         <version>1.0.12</version>
         <configuration>
-          <mainClass>sh.toxic.shirt.HelloApplication</mainClass>
+          <mainClass>sh.toxic.shirt.ShirtApplication</mainClass>
         </configuration>
       </plugin>
     </plugins>
