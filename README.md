@@ -18,7 +18,7 @@ ShirtGenerator es el proyecto resultado del primer parcial de Computación Grafi
 ## Descargar
 
 Para descargar se puede ir al apartado de `releases` o utilizar este link: <https://github.com/ToxicSSJ/shirt-generator/releases/tag/v0.1>. Una vez allí descargar la versión disponible según tu sistema operativo.
-> Si va a ejecutar en MacOS tan solo debe ejecutar el archivo `bin/app`.
+> Si va a ejecutar en MacOS tan solo debe ejecutar el archivo `bin/app`. En este sistema operativo es posible que lance multiples errores de permisos, en ese caso es porque el software no tiene licencia para correr en MacOS y este lo detecta como posible Malware, asi que se debe permitir la ejecución desde el apartado de seguridad.
 
 > Si va a ejecutar en Windows tan solo debe ejecutar el archivo `bin/app.bat`.
 
